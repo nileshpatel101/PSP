@@ -1,0 +1,18 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: PSP
+    
+  messages:
+    basename: i18n/messages
+
+
+acquirer:
+  base:
+    url: http://acquirer:8085/api/v1/acquirer
+
+# Set this property to enable/disable Docker 
+docker:
+  enabled: true
